@@ -4,7 +4,8 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <h1>VueJs Framework</h1>
     <h5 class="text-center">Portfolio Front-End by Ahmad</h5>
-    <button class="btn btn-success">View More</button>
+    <!-- <button class="btn btn-success">View More</button> -->
+    <router-link to="/about"><button class="btn btn-success">View More</button></router-link>
     
   </div>
 </template>
